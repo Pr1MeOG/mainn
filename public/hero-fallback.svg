@@ -1,0 +1,32 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" rx="64" fill="#080c11"/>
+  <circle cx="450" cy="390" r="260" fill="#00e5a0" opacity="0.12"/>
+  <circle cx="600" cy="300" r="190" fill="#ff5c38" opacity="0.12"/>
+  <ellipse cx="450" cy="620" rx="310" ry="70" fill="#00e5a0" opacity="0.08"/>
+  <path d="M179 608H721M214 570H686M246 532H654M280 494H620M313 456H587M349 418H551" stroke="#00e5a0" stroke-opacity="0.13" stroke-width="2"/>
+  <path d="M274 608L400 392M626 608L500 392M349 608L430 392M551 608L470 392M450 608V392" stroke="#00e5a0" stroke-opacity="0.13" stroke-width="2"/>
+  <g filter="url(#a)">
+    <path d="M450 196L641 310V536L450 650L259 536V310L450 196Z" fill="url(#b)" fill-opacity="0.42" stroke="#f2f5f8" stroke-opacity="0.18" stroke-width="2"/>
+    <path d="M450 258L575 332V480L450 554L325 480V332L450 258Z" fill="#0d131b" fill-opacity="0.88" stroke="#00e5a0" stroke-opacity="0.32" stroke-width="2"/>
+    <path d="M450 313L525 356V443L450 486L375 443V356L450 313Z" fill="url(#c)"/>
+    <ellipse cx="450" cy="424" rx="252" ry="65" stroke="#00e5a0" stroke-opacity="0.7" stroke-width="3"/>
+    <ellipse cx="450" cy="424" rx="306" ry="78" transform="rotate(62 450 424)" stroke="#ff5c38" stroke-opacity="0.5" stroke-width="3"/>
+    <ellipse cx="450" cy="424" rx="340" ry="86" transform="rotate(-38 450 424)" stroke="#f2f5f8" stroke-opacity="0.2" stroke-width="2"/>
+  </g>
+  <rect x="148" y="238" width="148" height="64" rx="22" fill="#0d131b" stroke="#00e5a0" stroke-opacity="0.22"/>
+  <text x="222" y="279" text-anchor="middle" fill="#00e5a0" font-size="28" font-weight="800" font-family="Arial">DEV</text>
+  <rect x="602" y="290" width="148" height="64" rx="22" fill="#0d131b" stroke="#ff5c38" stroke-opacity="0.24"/>
+  <text x="676" y="331" text-anchor="middle" fill="#ff5c38" font-size="26" font-weight="800" font-family="Arial">MGMT</text>
+  <rect x="193" y="540" width="148" height="64" rx="22" fill="#0d131b" stroke="#f2f5f8" stroke-opacity="0.18"/>
+  <text x="267" y="581" text-anchor="middle" fill="#f2f5f8" font-size="26" font-weight="800" font-family="Arial">DROP</text>
+  <defs>
+    <filter id="a" x="142" y="94" width="616" height="658" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="0"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="40" flood-color="#00e5a0" flood-opacity="0.18"/>
+      <feBlend mode="normal" in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="b" x1="450" y1="196" x2="450" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#00e5a0"/><stop offset="1" stop-color="#ff5c38"/></linearGradient>
+    <linearGradient id="c" x1="450" y1="313" x2="450" y2="486" gradientUnits="userSpaceOnUse"><stop stop-color="#f2f5f8"/><stop offset="0.52" stop-color="#00e5a0"/><stop offset="1" stop-color="#ff5c38"/></linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0a0e14"/>
+  <circle cx="600" cy="250" r="220" fill="#00e5a0" opacity="0.18"/>
+  <circle cx="830" cy="200" r="160" fill="#ff5c38" opacity="0.16"/>
+  <path d="M458 390C496 300 538 218 606 156C674 218 716 300 754 390H458Z" fill="url(#g)"/>
+  <path d="M450 408H762" stroke="#f2f5f8" opacity="0.25" stroke-width="2"/>
+  <text x="92" y="155" fill="#00e5a0" font-family="Arial" font-size="22" letter-spacing="6">COMING SOON</text>
+  <text x="90" y="260" fill="#f2f5f8" font-family="Arial" font-weight="700" font-size="82">ABHISHEKK</text>
+  <text x="94" y="326" fill="#8b97a8" font-family="Arial" font-size="30">Full-stack development × creator management</text>
+  <defs><linearGradient id="g" x1="606" y1="156" x2="606" y2="390"><stop stop-color="#00e5a0"/><stop offset="1" stop-color="#ff5c38"/></linearGradient></defs>
+</svg>

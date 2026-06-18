@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  background: #0a0e14;
+  font-family: 'Manrope', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  text-rendering: geometricPrecision;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #0a0e14;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.stage-grid {
+  background-image:
+    linear-gradient(rgba(0, 229, 160, 0.16) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 229, 160, 0.16) 1px, transparent 1px);
+  background-size: 42px 42px;
+  transform: perspective(560px) rotateX(62deg);
+  mask-image: linear-gradient(to top, black, transparent 86%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
